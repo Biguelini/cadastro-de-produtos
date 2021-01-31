@@ -1,5 +1,5 @@
 # Cadastro de produtos
-## Ídice :memo:
+## Índice :memo:
 #### ✏️ [Sobre](https://github.com/Biguelini/cadastro-de-produtos#sobre)
 #### 🚀 [Objetivos](https://github.com/Biguelini/cadastro-de-produtos#objetivos)
 #### 💻	[Tecnologias](https://github.com/Biguelini/cadastro-de-produtos#tecnologias)
