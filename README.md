@@ -13,6 +13,8 @@ Este repositório foi criado com a intenção de aprender a fazer interfaces com
   
   crie o arquivo configdb.py e adicione as variáveis host, user, password e databas, com as informações de seu banco de dados 
   
+  instale os módulos PyQt5 e pymysql
+  
   execute o arquivo main.py
 ```
 ## Objetivos
