@@ -83,7 +83,7 @@
      <string notr="true">background-color: rgb(255,255,255);</string>
     </property>
     <property name="gridStyle">
-     <enum>Qt::SolidLine</enum>
+     <enum>Qt::DashLine</enum>
     </property>
     <property name="columnCount">
      <number>5</number>
@@ -110,25 +110,60 @@
      <property name="text">
       <string>ID</string>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
     </column>
     <column>
      <property name="text">
       <string>CÓDIGO</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
      </property>
     </column>
     <column>
      <property name="text">
       <string>DESCRIÇÃO</string>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
     </column>
     <column>
      <property name="text">
       <string>PREÇO</string>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
     </column>
     <column>
      <property name="text">
       <string>CATEGORIA</string>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
      </property>
     </column>
    </widget>
