@@ -223,7 +223,7 @@
    <widget class="QPushButton" name="enviarbtn">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>410</x>
       <y>450</y>
       <width>161</width>
       <height>61</height>
@@ -242,6 +242,30 @@ background-color: rgb(193, 0, 3);</string>
     </property>
     <property name="text">
      <string>Cadastrar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="listarbtn">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>450</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(99, 102, 255);</string>
+    </property>
+    <property name="text">
+     <string>Listar</string>
     </property>
    </widget>
   </widget>

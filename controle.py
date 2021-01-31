@@ -12,7 +12,7 @@ try:
 except:
     print('Erro ao conectar')
 
-def main():
+def cadastrar():
     codigo = formulario.codigo.text()
     descricao = formulario.descricao.text()
     preco = round(float((formulario.preco.text()).replace(',','.')),2)
@@ -37,9 +37,27 @@ def main():
     except:
         print('Erro ao cadastrar')
 
+def listar():
+    listagem.show()
+    cursor = db.cursor()
+    sql =  "SELECT * FROM produtos"
+    cursor.execute(sql)
+    dados_lidos = cursor.fetchall()
+
+    listagem.dadostabela.setRowCount(len(dados_lidos))
+    listagem.dadostabela.setColumnCount(5)
+
+    for i in range(0, len(dados_lidos)):
+        for j in range(0,5):
+            listagem.dadostabela.setItem(i,j,QtWidgets.QTableWidgetItem(str(dados_lidos[i][j])))
+
+
+
 app = QtWidgets.QApplication([])
 formulario = uic.loadUi("interface.ui")
-formulario.enviarbtn.clicked.connect(main)
+listagem = uic.loadUi("listagem.ui")
+formulario.enviarbtn.clicked.connect(cadastrar)
+formulario.listarbtn.clicked.connect(listar)
 
 formulario.show()
 app.exec()
