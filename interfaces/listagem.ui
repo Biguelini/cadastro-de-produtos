@@ -64,19 +64,19 @@
       <x>10</x>
       <y>90</y>
       <width>720</width>
-      <height>501</height>
+      <height>400</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
       <width>720</width>
-      <height>501</height>
+      <height>400</height>
      </size>
     </property>
     <property name="maximumSize">
      <size>
       <width>720</width>
-      <height>501</height>
+      <height>400</height>
      </size>
     </property>
     <property name="styleSheet">
@@ -92,10 +92,10 @@
      <bool>true</bool>
     </attribute>
     <attribute name="horizontalHeaderMinimumSectionSize">
-     <number>143</number>
+     <number>140</number>
     </attribute>
     <attribute name="horizontalHeaderDefaultSectionSize">
-     <number>143</number>
+     <number>140</number>
     </attribute>
     <attribute name="horizontalHeaderHighlightSections">
      <bool>true</bool>
@@ -166,6 +166,30 @@
       </font>
      </property>
     </column>
+   </widget>
+   <widget class="QPushButton" name="excluir">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>510</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(208, 0, 3);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>EXCLUIR</string>
+    </property>
    </widget>
   </widget>
  </widget>
